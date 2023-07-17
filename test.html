@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #2a2747;
+        }
+        #cont{
+            margin:100px 100px 100px 100px;
+            display: flex;
+           position: relative;
+            align-items: center;
+        }
+        #cont img{
+            position: absolute;
+            top:-100px;
+            left:-200px;
+            
+        }
+        #cont div{
+            position: absolute;
+            top:30px;
+            left:200px;
+        }
+        div p{
+            color:white;
+        }
+        p{
+            margin: 0;
+            padding: 0;
+            font-size: 30px;
+           
+        }
+        
+        p.first::first-letter{
+            color:red;
+            font-size:35px;
+            font-weight: 600;
+        }
+        p.sec{
+            font-weight: 600;
+            margin-left: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <img src="images/mppp-removebg-preview.png">
+        <div><p class="first">Earth</p><p class="sec">Studio</p></div>
+        
+    </div>
+</body>
+</html>

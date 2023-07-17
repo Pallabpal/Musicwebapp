@@ -1,0 +1,90 @@
+@media only screen and (max-width: 950px) {
+
+    .main-content{
+        width:100%;
+    }
+    .right-sidebar{
+        width: 100%;
+    }
+    .latest-release .latest-release-desc{
+        justify-content: center;
+ }
+ .release-info{
+     margin-right: 10%;
+
+ }
+ .release-img{
+     display: none;
+ }
+ .right-sidebar{
+     padding:2% ;
+ }
+ .queue-heading{
+     margin-bottom: 5%;
+ }
+ .playlist-icon span img{
+     width:30%;
+ }
+ .playlist-wrapper .playlist{
+     margin-bottom: 3%;
+ }
+ .mood-style-row{
+         margin-right: 3px;
+         position: static;
+         
+ }
+ .mood-style-row img{
+     width:50%;
+ }
+
+}
+@media only screen and (max-width: 752px){
+    .popular-artist-desc{
+        /* max-height: 100px; */
+        max-width:  50%;
+        overflow: hidden;
+    }
+    .popular-artist{
+        margin-right: 2%;
+    }
+    .navbar{
+       max-width:100%;
+       padding-right: 0;
+       margin-right:0; 
+    }
+    .navbar-left{
+        width:100vw;
+        justify-content: flex-start;
+    }
+    .navabr-right{
+        width: 100vw;
+        justify-content: flex-end;
+    }
+    .sliding-screen{
+      max-width: 100%;
+      max-height:150px;
+       flex-wrap: wrap;
+       overflow: hidden;
+       
+    }
+    .latest-relesae-wrapper{
+        flex-wrap: wrap-reverse;
+        max-width: 50%;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .station-images{
+        display: flex;
+        flex-wrap:wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+  }
+  @media only screen and (max-width: 600px){
+
+    .navbar{
+        width:100%;
+    }
+
+  }

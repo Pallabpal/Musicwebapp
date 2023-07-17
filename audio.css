@@ -1,0 +1,52 @@
+.audio-player {
+    width: 100%;
+    background-image: linear-gradient(rgb(71, 66, 66), rgb(84, 74, 74), rgb(77, 64, 64));
+    margin:1% 0;
+    padding: 0;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  audio {
+    width: 100%;
+   
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-image: linear-gradient(rgb(127, 118, 118), rgb(112, 97, 97), rgb(107, 86, 86));
+    border-radius: 5px;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #20bcd4;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    background-color: transparent;
+  }
+  
+  audio::-webkit-media-controls-seek-back-button {
+    background-color: #20bcd4
+  }
+  
+  audio::-webkit-media-controls-seek-forward-button {
+    background-color: #e81c1c;
+  }
+  
+  audio::-webkit-media-controls-current-time-display {
+    color: #9d1111;
+  }
+  
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #a01548;
+  }
+  
+  audio::-webkit-media-controls-mute-button {
+    background-color: #9eac9c;
+    border-radius: 10px;
+  }
+  
+  audio::-webkit-media-controls-toggle-closed-captions-button {
+    background-color: #b83a3a;
+  }
